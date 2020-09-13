@@ -91,7 +91,7 @@ BOT_USERNAME = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
 # Main Repo you want to pull updates from.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Devp73/Userbot1.git")
+    "https://github.com/jkthe1/Userbot2.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "master")
 
@@ -127,6 +127,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+
+# Spotify Bio Changer vars
+SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME") or None
+SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS") or None
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
